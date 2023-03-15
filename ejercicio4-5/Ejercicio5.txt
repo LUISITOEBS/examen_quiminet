@@ -1,0 +1,4 @@
+//Luis Enrique Ballesteros Soriano  a 15 de Marzo de 2023
+
+
+SELECT p.title, p.year, a.name, d.name, g.name FROM `peliculas` AS p INNER JOIN `actores` AS a INNER JOIN `actor_pelicula` AS ap INNER JOIN `director` AS d INNER JOIN `drector_pelicula` AS dp INNER JOIN `genero` AS g INNER JOIN `genero_pelicula` AS gp WHERE gp.id_pelicula = p.id_pelicula and g.id_genero = gp.id_genero AND ap.id_pelicula = p.id_pelicula and a.id_actor = ap.id_actor AND dp.id_pelicula = p.id_pelicula and d.id_director = dp.id_director AND p.id_pelicula = 1;

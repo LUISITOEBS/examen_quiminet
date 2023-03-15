@@ -1,0 +1,31 @@
+
+/* Luis Enrique Ballesteros Soriano  a 15 de Marzo de 2023 */
+
+.cabecera {
+    background-color: #3B83BD;
+    color: white;
+    width: 50%;
+}
+
+td{
+    padding: 3px;
+    text-align: center;
+    border: #888888 1px solid;
+}
+
+thead td{
+    font-size: 20px;
+    border: #888888 1px solid;
+}
+
+tbody td{
+    border: #888888 1px solid;
+}
+
+.pares{
+    font-weight: bold;
+}
+
+.primos{
+    background-color: #DBECB6;
+}
